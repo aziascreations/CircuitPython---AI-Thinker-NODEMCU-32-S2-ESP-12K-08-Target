@@ -27,17 +27,18 @@ It also provides the "aesio" module that is usually not present on ESP32-S2 port
 git clone x boards/aithinker-nodemcu-32-s2-esp12k-08
 ```
 
-### Building
+## Building
 ```bash
 make BOARD=aithinker-nodemcu-32-s2-esp12k-08
 ```
 
-### Connecting to the USB OTG port
+## Flashing
+Use the standard procedure with `0x0000` as the offset for `firmware.bin`.
 
-Use the 5V, GND pins near the onboard connector and the 2 pins above the GND pin for the D+ and D- wires.
+## Connecting to the USB OTG port
+Use the 5V, GND pins near the onboard USB connector and the 2 pins above the GND pin for the D+ and D- wires.
 
 ## Known Issues
-
 * The neopixel module and LED references still exist (I don't know how to safely get rid of them)
 * The USB PID may cause problems, I don't know how Adafruit and the CircuitPython community chooses them.
 
