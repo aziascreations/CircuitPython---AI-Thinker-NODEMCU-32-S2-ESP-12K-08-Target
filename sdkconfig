@@ -31,10 +31,3 @@ CONFIG_SPIRAM_USE_MEMMAP=y
 CONFIG_SPIRAM_MEMTEST=y
 # CONFIG_SPIRAM_ALLOW_BSS_SEG_EXTERNAL_MEMORY is not set
 # end of SPI RAM config
-
-#
-# LWIP
-#
-# No idea what this is used for
-# CONFIG_LWIP_LOCAL_HOSTNAME="Metro-ESP32S2"
-# end of LWIP

@@ -26,10 +26,12 @@
 
 // Micropython setup
 
+// Same setup as the Saola board but with no Neopixel on board
+
 #define MICROPY_HW_BOARD_NAME       "NodeMCU-32-S2 w/ESP-12K 08"
 #define MICROPY_HW_MCU_NAME         "ESP-12K 08"
 
-#define MICROPY_HW_NEOPIXEL (&pin_GPIO18)
+// #define MICROPY_HW_NEOPIXEL (&pin_GPIO18)
 
 #define CIRCUITPY_BOOT_BUTTON (&pin_GPIO0)
 
